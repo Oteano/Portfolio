@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- ============ NAV ============ -->
+    <header class="nav" id="top">
+      <div class="nav-inner">
+        <a href="index.html#top" class="nav-brand"></a>
+        <nav class="nav-links" id="navLinks">
+          <a href="index.html#about">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="certifications.html">Certifications</a>
+          <a href="awards.html">Awards</a>
+          <a href="skills.html">Skills</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- ============ PAGE HEADER ============ -->
+    <div class="page-header">
+      <p class="section-label"></p>
+      <h1>Projects</h1>
+      <p>
+        A selection of engineering work — problem, role, tools, and outcome for
+        each.
+      </p>
+    </div>
+
+    <div class="dim-divider" aria-hidden="true"><span></span></div>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section">
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-rev"></div>
+          <h3>AI ROS based Robotic arm</h3>
+          <p class="project-desc">
+            Designed and developed a 6-DOF ROS 2 robotic arm that autonomously
+            sorts objects by shape and color using computer vision and machine
+            learning. The system leveraged an NVIDIA Jetson Nano for real-time
+            AI inference, integrated AX-12A Dynamixel servos for precise
+            manipulation, and utilized modular ROS 2 nodes for perception,
+            motion control, and actuation, demonstrating the seamless
+            integration of robotics, embedded systems, and intelligent
+            automation.
+          </p>
+
+          <ul class="project-meta">
+            <li>Role: Lead designer</li>
+            <li>Tools: SolidWorks, Arduino, OpenCV, ROS</li>
+          </ul>
+          <a href="#" class="project-link" target="_blank" rel="noopener"
+            >View writeup / repo →</a
+          >
+        </article>
+
+        <article class="project-card">
+          <div class="project-rev"></div>
+          <h3>Smart water meter</h3>
+          <p class="project-desc">
+            Designed and developed a smart IoT-based water metering system for
+            real-time consumption monitoring and remote data transmission using
+            GSM and LoRa communication. The solution featured a custom PCB
+            integrating a flow sensor, battery management system, and display
+            interface, with embedded firmware handling sensor calibration, data
+            acquisition, and wireless communication. The system enabled accurate
+            water usage tracking, leak detection, and intelligent resource
+            management through real-time data logging and alerts.
+          </p>
+          <ul class="project-meta">
+            <li>Role: Contributor</li>
+            <li>Tools: STM32, Arduino,KICAD</li>
+          </ul>
+          <a href="#" class="project-link" target="_blank" rel="noopener"
+            >View writeup / repo →</a
+          >
+        </article>
+
+        <article class="project-card">
+          <div class="project-rev"></div>
+          <h3>Shift Register Integration with Veri Sens Vision System</h3>
+          <p class="project-desc">
+            Designed and implemented a machine vision interface using a Baumer
+            VeriSens smart camera and a custom shift register circuit for
+            automated inspection and sorting. The system was integrated with PLC
+            logic to synchronize object detection with actuator control,
+            improving communication, timing precision, detection accuracy, and
+            overall automation reliability.
+          </p>
+          <ul class="project-meta">
+            <li>Role: Project Lead</li>
+            <li>Tools: Tia portal</li>
+          </ul>
+          <a href="#" class="project-link" target="_blank" rel="noopener"
+            >View writeup / repo →</a
+          >
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT / FOOTER ============ -->
+    <footer class="footer" id="contact">
+      <div class="footer-inner">
+        <h2>Let's talk.</h2>
+        <p>Open to work, new roles, and collaboration.</p>
+        <div class="footer-links">
+          <a href="mailto:you@example.com">nyandwakijoshua2@gmail.com</a>
+          <a
+            href="https://www.linkedin.com/in/joshuanyandwaki/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn ↗</a
+          >
+          <a href="https://github.com/Oteano" target="_blank" rel="noopener"
+            >GitHub ↗</a
+          >
+          <a href="Resume.pdf" target="_blank" rel="noopener">Resume (PDF) ↗</a>
+        </div>
+        <p class="footer-meta"></p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
